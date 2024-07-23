@@ -10,4 +10,15 @@
 5. 버전을 기록하는 프로세스는 git add -> git commit 이다. (O)
    - 그 외, git log {버전 기록들 확인} 와 git status (파일들의 상태를 살핀다.)가 있다.
 
-추가내용 푸시하기
+```
+추가적으로 다시 푸시 해줘야 한다
+git push origin master
+```
+# 로컬 저장소와 원격 저장소를 연결
+git remote add origin [Github repository URL]
+
+# 연결된 원격 저장소 목록 조회
+git remote -v
+
+# 로컬 저장소의 commits을 원격 저장소에 반영
+git push origin master
